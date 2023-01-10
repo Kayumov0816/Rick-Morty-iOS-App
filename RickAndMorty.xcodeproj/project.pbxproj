@@ -36,6 +36,7 @@
 		CE43C865296D9BAF00EC491B /* RMCharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43C864296D9BAF00EC491B /* RMCharacterDetailView.swift */; };
 		CE43C867296D9BE800EC491B /* RMCharacterDetailViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43C866296D9BE800EC491B /* RMCharacterDetailViewViewModel.swift */; };
 		CE43C869296DA39800EC491B /* RMFooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43C868296DA39800EC491B /* RMFooterLoadingCollectionReusableView.swift */; };
+		CE43C86B296DFAC200EC491B /* RMImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE43C86A296DFAC200EC491B /* RMImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		CE43C864296D9BAF00EC491B /* RMCharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailView.swift; sourceTree = "<group>"; };
 		CE43C866296D9BE800EC491B /* RMCharacterDetailViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailViewViewModel.swift; sourceTree = "<group>"; };
 		CE43C868296DA39800EC491B /* RMFooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMFooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
+		CE43C86A296DFAC200EC491B /* RMImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		CE39C1D52961BEC200B551AF /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				CE43C86A296DFAC200EC491B /* RMImageLoader.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				CE39C1DF2961C0A000B551AF /* RMLocationViewController.swift in Sources */,
 				CE39C2272965961E00B551AF /* RMCharacterCollectionViewCell.swift in Sources */,
 				CE39C1E32961C0CA00B551AF /* RMEpisodeViewController.swift in Sources */,
+				CE43C86B296DFAC200EC491B /* RMImageLoader.swift in Sources */,
 				CE39C1BD2961BBA600B551AF /* AppDelegate.swift in Sources */,
 				CE39C1BF2961BBA600B551AF /* SceneDelegate.swift in Sources */,
 				CE39C1E52961C0D800B551AF /* RMSettingsViewController.swift in Sources */,
